@@ -1,0 +1,103 @@
+
+/* Font Imported from Google : 'Poppins' */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;800&family=Poppins:wght@400;700&display=swap");
+
+/* CSS Boilerplate Code */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-sarif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #caf0f8;
+}
+
+/* ///////////////////////////////////// */
+
+/* Colors  
+Light Sky : #caf0f8
+Skye : #90e0ef
+Light Blue : #00b4d8
+Blue : #0077b6
+D Blue : #023e8a
+D Dark Blue : #03045e
+*/
+
+/* ///////////////////////////////////// */
+
+/* Project Styling Starts Here */
+/* Container Styling */
+.container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #caf0f8; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card Design */
+.card {
+    width: 14em;
+    height: 25em;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fbfeff;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Card Text */
+.card-text {
+    height: 160px;
+    margin-bottom: 30px;
+}
+.card-text h3{
+    margin-bottom: 10px;
+}
+.html {
+    color: orangered;
+}
+.css {
+    color: blue;
+}
+.js {
+    color: rgb(231, 231, 0);
+}
+
+/* Card Image */
+.card-image {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    background-color: rgb(249, 255, 255);
+}
+.card-image img {
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+.card-3 .card-image img {
+    left: 13%;
+}
+
+/* Card Buttons */
+.button {
+    padding: 10px 25px;
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    border-radius: 14px;
+    margin: 0 auto;
+    display: block;
+    transition: .5s;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: hsl(201, 100%, 50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
